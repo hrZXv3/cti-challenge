@@ -75,7 +75,10 @@ def save_csv(iocs, path):
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=list(iocs[0].keys()))
         writer.writeheader()
-        writer.writerows(iocs)    
+        writer.writerows(iocs)
+            
+def defang(ioc):
+    return ioc.replace("http", "hxxp").replace(".", "[.]")
             
 if __name__ == "__main__":
     openphish = get_openphish()
@@ -96,6 +99,15 @@ if __name__ == "__main__":
     output = DATA_DIR / "iocs.csv"
     save_csv(unique, output)
     print(f"CSV écrit : {output}")
+
+    sample = []
+    for fiche in openphish[:7] + urlhaus[:7] + threatfox[:7]:
+        copie = dict(fiche)
+        copie["ioc"] = defang(copie["ioc"])
+        sample.append(copie)
+
+    save_csv(sample, DATA_DIR / "iocs_sample.csv")
+    print(f"Extrait defangé : {len(sample)} IOC")
 
     types = []
     for fiche in unique:
