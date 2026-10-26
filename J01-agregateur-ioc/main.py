@@ -4,6 +4,7 @@ import csv
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from shared.config import ABUSECH_API_KEY, DATA_DIR
+from collections import Counter
 
 openphish_url = "https://openphish.com/feed.txt"
 urlhaus_url = "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/1000/"
@@ -38,7 +39,7 @@ def get_urlhaus():
         "ioc": element["url"],
         "type": "url",
         "source": "urlhaus",
-        "malware": element["threat"],
+        "malware": "",
         "first_seen": element["date_added"],
         "tags": ",".join(element["tags"] or []),
         })    
@@ -95,4 +96,21 @@ if __name__ == "__main__":
     output = DATA_DIR / "iocs.csv"
     save_csv(unique, output)
     print(f"CSV écrit : {output}")
+
+    types = []
+    for fiche in unique:
+        types.append(fiche["type"])
+
+    print("Par type :")
+    for nom, nombre in Counter(types).most_common():
+        print(f"  {nom}: {nombre}")
+
+    malwares = []
+    for fiche in unique:
+        if fiche["malware"] and fiche["malware"] != "Unknown malware":
+            malwares.append(fiche["malware"])
+
+    print("Top 5 malwares :")
+    for nom, nombre in Counter(malwares).most_common(5):
+        print(f"  {nom}: {nombre}")
     
