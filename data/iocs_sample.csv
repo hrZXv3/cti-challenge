@@ -6,17 +6,17 @@ hxxps://kleinanzelgen[.]ge/m-passwort-erneuern[.]html?id=11451103,url,openphish,
 hxxps://9000-firebase-anf-1781589572311[.]cluster-r7kbxfo3fnev2vskbkhhphetq6[.]cloudworkstations[.]dev/?monospaceUid=378407,url,openphish,,,phishing
 hxxp://signin-xfinlty[.]weebly[.]com/,url,openphish,,,phishing
 hxxp://roblox[.]com[.]et/users/2377452159/profile,url,openphish,,,phishing
+hxxp://101[.]65[.]242[.]82:44863/bin[.]sh,url,urlhaus,,2026-10-26 16:12:06 UTC,"32-bit,arm,elf,Mozi"
 hxxp://163[.]142[.]84[.]33:45721/bin[.]sh,url,urlhaus,,2026-10-26 16:02:07 UTC,
 hxxp://175[.]146[.]126[.]161:39233/i,url,urlhaus,,2026-10-26 16:02:06 UTC,
 hxxp://182[.]112[.]12[.]205:45563/i,url,urlhaus,,2026-10-26 15:48:10 UTC,"cowrie,elf,honeypot,mips,Mozi"
 hxxp://42[.]234[.]200[.]63:44153/i,url,urlhaus,,2026-10-26 15:47:07 UTC,Mozi
 hxxp://123[.]132[.]167[.]46:48799/bin[.]sh,url,urlhaus,,2026-10-26 15:47:07 UTC,Mozi
 hxxp://84[.]75[.]213[.]11/m4ng0d33w1771nnmnlove/MMaaRRiiOisecTanee[.]arm,url,urlhaus,,2026-10-26 15:43:11 UTC,"elf,mirai"
-hxxp://84[.]75[.]213[.]11/m4ng0d33w1771nnmnlove/MMaaRRiiOisecTanee[.]arm7,url,urlhaus,,2026-10-26 15:43:11 UTC,"elf,mirai"
-hxxps://ac[.]agenpr[.]org/ea/,url,threatfox,Vidar,2026-10-26 16:05:48 UTC,Vidar
-20[.]109[.]163[.]207:443,ip:port,threatfox,Cobalt Strike,2026-10-26 16:05:05 UTC,CobaltStrike
-4da3af4b73a357e13d2927ba2d3660213130330685d9c729c3490357466c5251,sha256_hash,threatfox,AMOS,2026-10-26 16:04:39 UTC,"Amos,ClickFix,Foxveil,macOS,stratos"
-32edf70e9f0998c25ad5328dcab6f171b072e3f411c848735278db1f358fbbec,sha256_hash,threatfox,AMOS,2026-10-26 16:01:07 UTC,"Amos,ClickFix,Foxveil,grove,macOS"
-hxxps://zfs[.]agenpr[.]org/hd/,url,threatfox,Vidar,2026-10-26 16:00:48 UTC,Vidar
-617e42d2497608afcf89dff337724eef62ce045ff792b325ffc9f9475eb00eec,sha256_hash,threatfox,AMOS,2026-10-26 15:57:42 UTC,"Amos,ClickFix,Foxveil,frame97,macOS"
-hxxps://zfs[.]agenpr[.]org/q1o/,url,threatfox,Vidar,2026-10-26 15:55:48 UTC,Vidar
+9eb052edaf2d307bb328388eaed113b428ce630029973135c7e373052280ad0f,sha256_hash,threatfox,AMOS,2026-10-26 16:12:27 UTC,"Amos,ClickFix,forge,Foxveil,macOS"
+hxxps://ac[.]agenpr[.]org/t/,url,threatfox,Vidar,2026-10-26 16:10:48 UTC,Vidar
+149[.]78[.]185[.]68:50147,ip:port,threatfox,Unknown malware,2026-10-26 16:09:55 UTC,"botnet,DHT,elf,protokol"
+149[.]78[.]185[.]68:53479,ip:port,threatfox,Unknown malware,2026-10-26 16:09:55 UTC,"botnet,DHT,elf,protokol"
+149[.]78[.]185[.]68:57221,ip:port,threatfox,Unknown malware,2026-10-26 16:09:55 UTC,"botnet,DHT,elf,protokol"
+149[.]78[.]185[.]68:60107,ip:port,threatfox,Unknown malware,2026-10-26 16:09:55 UTC,"botnet,DHT,elf,protokol"
+149[.]78[.]185[.]68:64231,ip:port,threatfox,Unknown malware,2026-10-26 16:09:55 UTC,"botnet,DHT,elf,protokol"

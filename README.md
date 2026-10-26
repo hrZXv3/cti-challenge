@@ -17,7 +17,7 @@ Statut : à faire / en cours / fait
 
 | Jour | Date | Projet | Compétences | Statut |
 |---|---|---|---|---|
-| J01 | 26/10 | [Agrégateur d'IOC (ThreatFox + URLhaus + OpenPhish -> CSV quotidien)](./J01-agregateur-ioc/) | Collecte, Python, API | à faire |
+| J01 | 26/10 | [Agrégateur d'IOC (ThreatFox + URLhaus + OpenPhish -> CSV quotidien)](./J01-agregateur-ioc/) | Collecte, Python, API | fait |
 | J02 | 27/10 | [Pivot complet sur une URL de phishing récente](./J02-pivot-phishing/) | Investigation infra, DNS, ASN | à faire |
 | J03 | 28/10 | [3 règles YARA pour une famille de malware](./J03-regles-yara/) | Détection, YARA | à faire |
 | J04 | 29/10 | [Fiche acteur d'un groupe ransomware + layer ATT&CK](./J04-fiche-acteur-ransomware/) | Renseignement, ATT&CK | à faire |
