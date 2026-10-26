@@ -1,8 +1,9 @@
 import requests
 import sys
+import csv
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-from shared.config import ABUSECH_API_KEY
+from shared.config import ABUSECH_API_KEY, DATA_DIR
 
 openphish_url = "https://openphish.com/feed.txt"
 urlhaus_url = "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/1000/"
@@ -69,6 +70,11 @@ def deduplicate(iocs):
             unique.append(fiche)
     return unique
     
+def save_csv(iocs, path):
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=list(iocs[0].keys()))
+        writer.writeheader()
+        writer.writerows(iocs)    
             
 if __name__ == "__main__":
     openphish = get_openphish()
@@ -85,4 +91,8 @@ if __name__ == "__main__":
     print(f"Total: {len(all_iocs)} IOC")
     print(f"Doublons supprimés: {len(all_iocs) - len(unique)}")
     print(f"IOC uniques: {len(unique)}")
+
+    output = DATA_DIR / "iocs.csv"
+    save_csv(unique, output)
+    print(f"CSV écrit : {output}")
     
