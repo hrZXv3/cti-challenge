@@ -49,7 +49,6 @@ Statut : à faire / en cours / fait
 cti-challenge/
 ├── shared/      code commun, construit au fil du défi
 ├── data/        données partagées entre projets (raw/ non versionné)
-├── docs/        documentation générale
 └── JXX-.../     un dossier par projet, chacun avec son README
 ```
 
