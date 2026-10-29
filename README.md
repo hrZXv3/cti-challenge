@@ -20,7 +20,7 @@ Statut : à faire / en cours / fait
 | J01 | 26/10 | [Agrégateur d'IOC (ThreatFox + URLhaus + OpenPhish -> CSV quotidien)](./J01-agregateur-ioc/) | Collecte, Python, API | fait |
 | J02 | 27/10 | [Pivot sur une infrastructure Vidar](./J02-pivot-vidar/) | Investigation infra, DNS, ASN | fait |
 | J03 | 28/10 | [3 règles YARA pour une famille de malware](./J03-regles-yara/) | Détection, YARA | à faire |
-| J04 | 29/10 | [Fiche acteur d'un groupe ransomware + layer ATT&CK](./J04-fiche-acteur-ransomware/) | Renseignement, ATT&CK | à faire |
+| J04 | 29/10 | [Fiche acteur d'un groupe ransomware + layer ATT&CK](./J04-fiche-acteur-ransomware/) | Renseignement, ATT&CK | fait |
 | J05 | 30/10 | [Dashboard Streamlit des IOC collectés (J01)](./J05-dashboard-ioc/) | Outillage, visualisation | à faire |
 | J06 | 02/11 | [Enrichisseur d'IOC (IP/domaine -> rapport Markdown)](./J06-enrichisseur-ioc/) | Enrichissement, API | à faire |
 | J07 | 03/11 | [Cartographie d'un kit de phishing visant une banque FR](./J07-kit-phishing-banque/) | Investigation, urlscan | à faire |

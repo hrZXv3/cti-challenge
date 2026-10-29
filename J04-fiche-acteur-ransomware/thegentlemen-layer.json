@@ -1,0 +1,392 @@
+{
+  "name": "The Gentlemen - ransomware",
+  "versions": {
+    "layer": "4.5",
+    "navigator": "5.1.0",
+    "attack": "17"
+  },
+  "domain": "enterprise-attack",
+  "description": "Techniques ATT&CK attribuées à The Gentlemen d'après Trend Micro (09/09/2025) et Group-IB (19/03/2026). Rouge : citée par les deux sources. Orange : Trend Micro seul. Jaune : Group-IB seul. CTI Challenge J04 - hrZXv3.",
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "ESXi",
+      "Network Devices"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "max",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false,
+    "expandedSubtechniques": "annotated"
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1003.004",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1014",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1018",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.001",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.002",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1021.004",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1027",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1039",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1046",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1048",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1048.001",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1053",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.001",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.003",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1059.006",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1068",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1069.002",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1070.001",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1071.001",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1074.001",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1078.002",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1087.002",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1098",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1098.007",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110.001",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1112",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1136.002",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1190",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1219",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1222.001",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1482",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1484.001",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1486",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1489",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1490",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1555",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1557.001",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1562.001",
+      "score": 2,
+      "color": "#e60d0d",
+      "comment": "Trend Micro (09/2025) + Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1562.004",
+      "score": 1,
+      "color": "#ff9a66",
+      "comment": "Trend Micro (09/2025)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1572",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1615",
+      "score": 1,
+      "color": "#ffcc66",
+      "comment": "Group-IB (03/2026)",
+      "enabled": true,
+      "showSubtechniques": true
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ffffff",
+      "#e60d0d"
+    ],
+    "minValue": 0,
+    "maxValue": 2
+  },
+  "legendItems": [
+    {
+      "label": "Cité par Trend Micro et Group-IB",
+      "color": "#e60d0d"
+    },
+    {
+      "label": "Trend Micro seul",
+      "color": "#ff9a66"
+    },
+    {
+      "label": "Group-IB seul",
+      "color": "#ffcc66"
+    }
+  ],
+  "showTacticRowBackground": false,
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}
