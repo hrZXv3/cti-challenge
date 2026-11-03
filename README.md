@@ -22,7 +22,7 @@ Statut : à faire / en cours / fait
 | J03 | 28/10 | [Enquête : de faux outils Roblox au profil Steam d'un opérateur Vidar](./J03-enquete-operateur-vidar/) | Investigation, analyse de malware | fait |
 | J04 | 29/10 | [Fiche acteur d'un groupe ransomware + layer ATT&CK](./J04-fiche-acteur-ransomware/) | Renseignement, ATT&CK | fait |
 | J05 | 30/10 | [Dashboard Streamlit des IOC collectés (J01)](./J05-dashboard-ioc/) | Outillage, visualisation | fait |
-| J06 | 02/11 | [Enrichisseur d'IOC (IP/domaine -> rapport Markdown)](./J06-enrichisseur-ioc/) | Enrichissement, API | à faire |
+| J06 | 02/11 | [Contourner Cloudflare : les serveurs d'origine de l'opérateur Vidar](./J06-contournement-cloudflare/) | Investigation infra, DNS, Censys | fait |
 | J07 | 03/11 | [Cartographie d'un kit de phishing visant une banque FR](./J07-kit-phishing-banque/) | Investigation, urlscan | à faire |
 | J08 | 04/11 | [Fiche stealer : IOC + ATT&CK](./J08-fiche-stealer/) | Malware, sandbox | à faire |
 | J09 | 05/11 | [Comparaison des TTP de deux groupes](./J09-comparaison-ttp/) | Renseignement, ATT&CK Navigator | à faire |
